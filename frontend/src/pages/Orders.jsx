@@ -21,7 +21,7 @@ function Orders() {
 
       try {
         const response = await fetch(
-          "http://192.168.1.14:5000/api/orders/my",
+          "https://aura-fashion-store.onrender.com/api/orders/my",
           {
             headers: {
               Authorization: `Bearer ${customerToken}`,

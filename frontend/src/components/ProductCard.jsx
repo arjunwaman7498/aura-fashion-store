@@ -16,7 +16,7 @@ function ProductCard({ product }) {
 
       try {
         const response = await fetch(
-          "http://192.168.1.14:5000/api/wishlist",
+          "https://aura-fashion-store.onrender.com/api/wishlist",
           {
             headers: {
               Authorization: `Bearer ${customerToken}`,
@@ -55,7 +55,7 @@ function ProductCard({ product }) {
 
       if (isWishlisted) {
         const response = await fetch(
-          `http://192.168.1.14:5000/api/wishlist/${product.id}`,
+          `https://aura-fashion-store.onrender.com/api/wishlist/${product.id}`,
           {
             method: "DELETE",
             headers: {
@@ -71,7 +71,7 @@ function ProductCard({ product }) {
         setIsWishlisted(false);
       } else {
         const response = await fetch(
-          `http://192.168.1.14:5000/api/wishlist/${product.id}`,
+          `https://aura-fashion-store.onrender.com/api/wishlist/${product.id}`,
           {
             method: "POST",
             headers: {

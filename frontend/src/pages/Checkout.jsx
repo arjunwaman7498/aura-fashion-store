@@ -63,7 +63,7 @@ function Checkout() {
       }));
 
       const response = await fetch(
-        "http://192.168.1.14:5000/api/orders",
+        "https://aura-fashion-store.onrender.com/api/orders",
         {
           method: "POST",
           headers: {

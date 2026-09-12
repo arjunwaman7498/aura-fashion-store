@@ -80,7 +80,7 @@ const fetchOrders = async () => {
     setOrdersError("");
 
     const response = await fetch(
-      "http://192.168.1.14:5000/api/admin/orders",
+      "https://aura-fashion-store.onrender.com/api/admin/orders",
       {
         headers: {
           Authorization: `Bearer ${localStorage.getItem("adminToken")}`,
@@ -117,7 +117,7 @@ const fetchStats = async () => {
     setStatsError("");
 
     const response = await fetch(
-      "http://192.168.1.14:5000/api/admin/stats",
+      "https://aura-fashion-store.onrender.com/api/admin/stats",
       {
         headers: {
           Authorization: `Bearer ${localStorage.getItem("adminToken")}`,
@@ -159,7 +159,7 @@ const handleOrderStatusChange = async (orderId, status) => {
     setOrdersError("");
 
     const response = await fetch(
-      `http://192.168.1.14:5000/api/admin/orders/${orderId}/status`,
+      `https://aura-fashion-store.onrender.com/api/admin/orders/${orderId}/status`,
       {
         method: "PUT",
         headers: {

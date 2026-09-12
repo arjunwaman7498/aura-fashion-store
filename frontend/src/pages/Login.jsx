@@ -33,7 +33,7 @@ function Login() {
       setLoading(true);
 
       const response = await fetch(
-        "http://192.168.1.14:5000/api/auth/login",
+        "https://aura-fashion-store.onrender.com/api/auth/login",
         {
           method: "POST",
           headers: {

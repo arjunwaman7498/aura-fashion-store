@@ -22,7 +22,7 @@ function Wishlist() {
       setError("");
 
       const response = await fetch(
-        "http://192.168.1.14:5000/api/wishlist",
+        "https://aura-fashion-store.onrender.com/api/wishlist",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -52,7 +52,7 @@ function Wishlist() {
   const removeFromWishlist = async (productId) => {
     try {
       const response = await fetch(
-        `http://192.168.1.14:5000/api/wishlist/${productId}`,
+        `https://aura-fashion-store.onrender.com/api/wishlist/${productId}`,
         {
           method: "DELETE",
           headers: {

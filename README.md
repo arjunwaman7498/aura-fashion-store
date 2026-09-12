@@ -333,3 +333,7 @@ Product data is stored in PostgreSQL and retrieved through backend APIs rather t
 This project was developed as part of the **EduNest Full-Stack Developer Internship Assessment**.
 
 This project is intended for educational and assessment purposes.
+```bash
+git clone https://github.com/arjunwaman7498/aura-fashion-store.git
+cd aura-fashion-store
+

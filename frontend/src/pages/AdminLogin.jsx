@@ -23,7 +23,7 @@ function AdminLogin() {
       setLoading(true);
 
       const response = await fetch(
-        "http://192.168.1.14:5000/api/admin/login",
+        "https://aura-fashion-store.onrender.com/api/admin/login",
         {
           method: "POST",
           headers: {
