@@ -4,6 +4,12 @@ A full-stack women's fashion e-commerce web application built with React, Node.j
 
 AURA provides a responsive shopping experience with product browsing, search and filtering, product details, cart management, customer authentication, wishlist, checkout, order tracking, and an admin dashboard for product and order management.
 
+## Live Demo
+
+- **Frontend:** https://aura-fashion-frontend-slvd.onrender.com
+- **Backend API:** https://aura-fashion-store.onrender.com
+- **GitHub Repository:** https://github.com/arjunwaman7498/aura-fashion-store
+
 ## Features
 
 ### Customer Features
