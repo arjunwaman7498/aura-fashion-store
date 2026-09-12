@@ -141,3 +141,20 @@ womens-fashion-store/
 ### Admin Management
 
 ![AURA Fashion Store - Admin Management](screenshots/admin-management.png)
+
+## Setup & Installation
+
+### Prerequisites
+
+Make sure the following are installed:
+
+- Node.js
+- npm
+- PostgreSQL
+- Git
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/arjunwaman7498/aura-fashion-store.git
+cd aura-fashion-store
